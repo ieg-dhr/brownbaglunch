@@ -1,0 +1,103 @@
+senders,nationality,recipients
+Napoleon,France,Aristotle
+Napoleon,France,Isaac Newton
+William Shakespeare,UK,Thomas Jefferson
+William Shakespeare,UK,Ludwig van Beethoven
+William Shakespeare,UK,Elizabeth I of England
+William Shakespeare,UK,Aristotle
+William Shakespeare,UK,Thomas Jefferson
+William Shakespeare,UK,Theodore Roosevelt
+Abraham Lincoln,US,Ludwig van Beethoven
+Abraham Lincoln,US,Aristotle
+Abraham Lincoln,US,Elizabeth I of England
+Abraham Lincoln,US,Wolfgang Amadeus Mozart
+Abraham Lincoln,US,Charlemagne
+Abraham Lincoln,US,Charlemagne
+George Washington,US,Albert Einstein
+George Washington,US,Aristotle
+George Washington,US,Martin Luther
+George Washington,US,Leonardo da Vinci
+Adolf Hitler,Austria,Abraham Lincoln
+Adolf Hitler,Austria,Wolfgang Amadeus Mozart
+Adolf Hitler,Austria,Aristotle
+Adolf Hitler,Austria,George Washington
+Adolf Hitler,Austria,Charles Darwin
+Adolf Hitler,Austria,Ludwig van Beethoven
+Aristotle,Greece,Elizabeth I of England
+Aristotle,Greece,William Shakespeare
+Alexander the Great,Greece,Alexander the Great
+Alexander the Great,Greece,William Shakespeare
+Alexander the Great,Greece,Queen Victoria
+Thomas Jefferson,US,Henry VIII of England
+Thomas Jefferson,US,Martin Luther
+Thomas Jefferson,US,George Washington
+Thomas Jefferson,US,Charles Darwin
+Henry VIII of England,UK,Napoleon
+Henry VIII of England,UK,Karl Marx
+Charles Darwin,UK,Queen Victoria
+Charles Darwin,UK,Martin Luther
+Elizabeth I of England,UK,Wolfgang Amadeus Mozart
+Elizabeth I of England,UK,Alexander the Great
+Elizabeth I of England,UK,Albert Einstein
+Elizabeth I of England,UK,Julius Caesar
+Elizabeth I of England,UK,Karl Marx
+Elizabeth I of England,UK,Henry VIII of England
+Karl Marx,Germany,Queen Victoria
+Karl Marx,Germany,Karl Marx
+Karl Marx,Germany,Elizabeth I of England
+Karl Marx,Germany,Christopher Columbus
+Karl Marx,Germany,Theodore Roosevelt
+Julius Caesar,Italy,Adolf Hitler
+Julius Caesar,Italy,George Washington
+Julius Caesar,Italy,Henry VIII of England
+Queen Victoria,UK,Aristotle
+Martin Luther,Germany,Christopher Columbus
+Martin Luther,Germany,Charlemagne
+Martin Luther,Germany,Elizabeth I of England
+Martin Luther,Germany,Adolf Hitler
+Martin Luther,Germany,Elizabeth I of England
+Martin Luther,Germany,Adolf Hitler
+Martin Luther,Germany,Karl Marx
+Joseph Stalin,Georgia,Theodore Roosevelt
+Joseph Stalin,Georgia,Karl Marx
+Albert Einstein,Germany,Christopher Columbus
+Christopher Columbus,Italy,Karl Marx
+Christopher Columbus,Italy,Charlemagne
+Christopher Columbus,Italy,Charles Darwin
+Christopher Columbus,Italy,Isaac Newton
+Isaac Newton,UK,William Shakespeare
+Isaac Newton,UK,Theodore Roosevelt
+Isaac Newton,UK,Isaac Newton
+Isaac Newton,UK,Adolf Hitler
+Isaac Newton,UK,Joseph Stalin
+Charlemagne,Unknown,Abraham Lincoln
+Charlemagne,Unknown,Louis XIV of France
+Theodore Roosevelt,US,Ludwig van Beethoven
+Wolfgang Amadeus Mozart,Austria,Louis XIV of France
+Wolfgang Amadeus Mozart,Austria,Charlemagne
+Wolfgang Amadeus Mozart,Austria,Julius Caesar
+Wolfgang Amadeus Mozart,Austria,George Washington
+Wolfgang Amadeus Mozart,Austria,Albert Einstein
+Wolfgang Amadeus Mozart,Austria,Albert Einstein
+Plato,Greece,Charlemagne
+Plato,Greece,Isaac Newton
+Plato,Greece,Ludwig van Beethoven
+Plato,Greece,Aristotle
+Louis XIV of France,France,Martin Luther
+Louis XIV of France,France,Henry VIII of England
+Louis XIV of France,France,Abraham Lincoln
+Ludwig van Beethoven,Germany,Charles Darwin
+Ludwig van Beethoven,Germany,Plato
+Ludwig van Beethoven,Germany,Wolfgang Amadeus Mozart
+Ludwig van Beethoven,Germany,Abraham Lincoln
+Ludwig van Beethoven,Germany,Louis XIV of France
+Leonardo da Vinci,Italy,Adolf Hitler
+Leonardo da Vinci,Italy,Queen Victoria
+Leonardo da Vinci,Italy,Martin Luther
+Leonardo da Vinci,Italy,George Washington
+Leonardo da Vinci,Italy,Adolf Hitler
+Leonardo da Vinci,Italy,Abraham Lincoln
+Leonardo da Vinci,Italy,Plato
+Leonardo da Vinci,Italy,Aristotle
+Leonardo da Vinci,Italy,Ludwig van Beethoven
+Leonardo da Vinci,Italy,Joseph Stalin
