@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/*Reset = resets the html styles*/
+
+/*
+html is set to 62.5% so that all the REM measurements
+are based on 10px sizing. So basically 1.5rem = 15px
+*/
+
+div, span,
+h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, del, dfn, em,
+img, ins, strong, b, i, u, q, sub, sup, ol, ul, dl, li, dt,
+fieldset, form, label, input, legend, table, caption,
+tr, th, td, tbody, tfoot, thead, section, article, aside,
+main, header, footer, figure, figcaption, nav, time {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+}
+
+/*
+html is set to 62.5% so that all the REM measurements
+are based on 10px sizing. So basically 1.5rem = 15px
+*/
+
+html {
+  font-size: 62.5%;
+  margin-left: 15px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 62.5%;
+}
+
+
+/* HEADER */
+
+header a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* TODO: vertical lenght */
+
+header h1 {
+  position: absolute;
+  margin:auto;
+  padding: 0;
+  color: #A89D8B;
+  opacity: 0.3;
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-size: 125px;
+  text-transform: uppercase;
+}
+
+header h2 {
+  position: relative;
+  top: 43px;
+  left: 15px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+header h3 {
+  position: relative;
+  top: 12px;
+  left: 15px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  position: relative;
+  margin: 8rem 0 3rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  z-index: 10;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0 70px 0 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.navigation a.active,
+.navigation a:active,
+.navigation a:hover {
+  background: #CD2526;
+  color: #FFF;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+}
+
+/* CONTENT */
+
+.content {
+  margin: 3rem 0 0 0;
+  font-size: 17px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 21px;
+  font-weight: 500;
+  background-clip: content-box;
+  background-color: #CD2526;
+  color: #FFF;
+  text-decoration: none;
+}
+
+li.letter {
+  display: inline-block;
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+a, a:focus, a:active, a:hover, a:visited {
+  text-decoration: none;
+  color: #CD2526;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 5rem;
+  border-top: 1px solid black;
+  font-size: 15px;
+}
+
+footer section {
+  margin-top: 3rem;
+}
+
+.contact img {
+  width: 120px;
+  float: left;
+  padding: 20px;
+  border-right: 3px solid #444;
+  margin: 20px;
+}
+
+
+
+/*
+h2 {
+  font-size: 4.2rem;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  /*em= Breite der Buchstaben; r= relativ*/

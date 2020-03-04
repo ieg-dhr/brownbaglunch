@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content=""/>
+        <meta name="author" content="Ilenia Laudito"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>HTML Konkordanz</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tinos:400,700" type="text/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <div class="branding">
+                <a href="index.html">
+                    <h1 class="title">DER STURM</h1>
+                    <h2 class="subtitle">Briefe aus dem Sturm-Archiv I</h2>
+                    <h3 class="byline">Eine Digitale Edition</h3>
+                </a>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="projekt.html">Projekt</a></li>
+                    <li><a href="briefe.html">Briefe</a></li>
+                    <li><a href="personen.html">Personen</a></li>
+                    <li><a href="orte.html">Orte</a></li>
+                    <li><a href="werke.html">Werke</a></li>
+                    <li><a href="daten.html">Daten</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <section class="maincontent">
+                <h2>HTML Konkordanz</h2>
+                <table>
+                    <tr>
+                        <th>Element</td>
+                        <th>Beschreibung</td>
+                        <th>HTML</th>
+                    </tr>
+                    <tr>
+                        <td>msIdentifier</td>
+                        <td>Enthalten archivalische Angaben zum Textträger</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;div class="opener"&gt;
+                                        &lt;h6 class="msidentifier"&gt;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>repository</td>
+                        <td>Aufbewahrende Institution des Textträgers</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;div class="opener"&gt;
+                                        &lt;h6 class="msidentifier"&gt;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>xenoData</td>
+                        <td>
+                            Enthält die URI zur jeweiligen, von der Staatsbibliothek zur Verfügung
+                            gestellten, METS-Datei (Metadata Encoding and Transmission Standard) des
+                            jeweiligen Briefes
+                        </td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;section class="toolbar" class="toolbar"&gt;
+                                        &lt;ul class="actions"&gt;
+                                            &lt;li class="metadata"&gt;
+                                                &lt;a target="_blank" class="black button" href="#"&gt;
+                                                    ➚ Metadaten
+                                                &lt;/a&gt;
+                                            &lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/section&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>persName ref="Norm-ID"</td>
+                        <td>Personenname des Senders bzw. Empfängers mit Norm-ID</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;head&gt;
+                                        &lt;title&gt;914-12-19, Jacoba van Heemskerck an Herwarth Walden&lt;/title&gt;
+                                    &lt;/head&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>placeName ref="Norm-ID"</td>
+                        <td>Name des Empfangs- oder Sendeortes. Wenn kein Absendort angegeben, wird dies als <em>unknown</em> annotiert</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;div class="opener"&gt;
+                                        &lt;h5 class="dateline"&gt;
+                                            [ &lt;time datetime="1915-03-15">1915-03-15&lt;/time&gt; ・
+                                            &lt;span class="locality"&gt;&lt;a href="#" class="locality"&gt;unbekannt&lt;/a&gt;&lt;/span&gt; ]
+                                        &lt;/h5&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>date</td>
+                        <td>
+                            Maschinenlesbares Sende- bzw. Empfangsdatum; das Absendedatum
+                            referenziert auf den Poststempel. Wenn keiner vorhanden ist, auf die
+                            schriftliche Datumsangabe des Absenders (vor allem bei Briefen)
+                        </td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;div class="opener"&gt;
+                                        &lt;h5 class="dateline"&gt;
+                                            [ &lt;time datetime="1915-03-15">1915-03-15&lt;/time&gt; ・
+                                            &lt;span class="locality"&gt;&lt;a href="#" class="locality"&gt;unbekannt&lt;/a&gt;&lt;/span&gt; ]
+                                        &lt;/h5&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th>Element</td>
+                        <th>Beschreibung</td>
+                        <th>HTML</th>
+                    </tr>
+                    <tr>
+                        <td>text type="letter; postcard; militaryMail; telegram"</td>
+                        <td>
+                            Gesamter inhaltlicher Bereich des Dokuments; die verschiedenen
+                            Attribute kennzeichnen die Textgattung der Korrespondenz
+                        </td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;section class="maincontent"&gt;
+                                        &lt;div class="letter"&gt;&lt;/div&gt;
+                                    &lt;/section&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>pb n="Blattzahl" facs="Faksimile-URI"</td>
+                        <td>
+                            Kennzeichnet den Beginn einer neuen Seite im Textträger samt URI zum
+                            Faksimile
+                        </td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;span class="pb-47r" class="pb"&gt;
+                                        &lt;a class="external" href="#"&gt;[47r]&lt;/a&gt;
+                                    &lt;/span&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>opener</td>
+                        <td>Umfasst den einleitenden Teil eines Dokumentes, besonders bei Briefen</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;div class="letter"&gt;
+                                        &lt;div class="opener"&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>salute</td>
+                        <td>
+                            Enthält einen einführenden oder abschließenden Gruß, besonders in
+                            Briefen
+                        </td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;div class="closer"&gt;
+                                        &lt;span class="salute"&gt;
+                                        &lt;/span&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>dateline</td>
+                        <td>Umfasst Datum und Ortsangabe am Anfang eines Briefes</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;div class="opener"&gt;
+                                        &lt;h5 class="dateline"&gt;
+                                            [ &lt;time datetime="1915-03-15">1915-03-15&lt;/time&gt; ・
+                                            &lt;span class="locality"&gt;&lt;a href="#" class="locality"&gt;unbekannt&lt;/a&gt;&lt;/span&gt; ]
+                                        &lt;/h5&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>date</td>
+                        <td>Datumsangabe im Text mit normierter Datumsangabe als Wert</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;time datetime="1915-03"&gt;März&lt;/time&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>persName</td>
+                        <td>Umfasst eine Person samt Norm-ID oder interner ID</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;a class="person" href="#"&gt;Behne&lt;/a&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            term key="Norm-ID oder interne ID" type="artwork; book; journal; article; newspaper; drama" ref="Permalink; URL zu Digitalisat"
+                        </td>
+                        <td>
+                            Kennzeichnet Werke, darunter Kunstwerke, Bücher, Zeitschriften und Zeitungen mit gegebenenfalls einer Referenz auf eine digitale Ressource
+                        </td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;a class="artwork" href="#"&gt;XY&lt;/a&gt;
+                                    &lt;a class="book" href="#"&gt;Zur neuen Kunst&lt;/a&gt;
+                                    &lt;a class="journal" href="#"&gt;XY&lt;/a&gt;
+                                    &lt;a class="article" href="#"&gt;XY&lt;/a&gt;
+                                    &lt;a class="newspaper" href="#"&gt;XY&lt;/a&gt;
+                                    &lt;a class="drama" href="#"&gt;XY&lt;/a&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>placeName</td>
+                        <td>Umfasst einen Ortshinweis</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;a class="locality" href="#"&gt;Berlin&lt;/a&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>note</td>
+                        <td>Bildet den Anmerkungsapparat</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;a href="#ap-1" class="fn-1">&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;
+                                    &lt;div class="aparatus"&gt;
+                                        &lt;ol class="footnotes"&gt;
+                                            &lt;li class="ap-1"&gt;
+                                                TEXT
+                                                &lt;a href="#fn-1"&gt; » &lt;/a&gt;
+                                            &lt;/li&gt;
+                                        &lt;/ol&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>hi rend="underline; twice-underline; super; line-through"</td>
+                        <td>Kennzeichnet Unterstreichungen, Hochstellungen und Durchstreichungen im Text</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;span class="underline"&gt;
+                                    &lt;span class="twice-underline"&gt;
+                                    &lt;sup&gt;
+                                    &lt;strike&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>unclear</td>
+                        <td>Umfasst Unsicherheiten in der Transkription</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;em class="unclear" title="Unsichere Lesung"&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>foreign</td>
+                        <td>Umfasst nichtdeutsche Ausdrücke/Worte</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;i&gt;Adieu&lt;/i&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ref target="#"</td>
+                        <td>Verweist auf eine erwähnte korpus-interne Korrespondenz bzw. auf eine externe Internetressource in <em>notes</em></td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;a href="#"&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>table; row; cell</td>
+                        <td>Tabelle</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>closer</td>
+                        <td>Umfasst das Ende eines Textes wie den Abschluss eines Briefes</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;div class="closer"&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>postscript</td>
+                        <td>Enthält ein Postscriptum</td>
+                        <td>
+                            <pre>
+                                <code>
+                                    &lt;div class="postscript"&gt;
+                                        &lt;p&gt;Viel Dank für Ihr Brief...&lt;/p&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer class="footer">
+            <section class="contact">
+                <a href="http://www.adwmainz.de/">
+                    <img src="img/adwlogo.png" alt="Logo der Akademie" />
+                    <address>
+                        Akademie der Wissenschaften und der Literatur | Mainz<br/>
+                        Geschwister-Scholl-Str. 2<br/>
+                        55131 Mainz<br/>
+                        Tel: 06131 577 100<br/>
+                        E-Mail: generalsekretariat@adwmainz.de<br/>
+                        Webseite: www.adwmainz.de
+                    </address>
+                </a>
+            </section>
+            <section class="service">
+                <h4>Briefe aus dem Sturm-Archiv I</h4>
+                <p><a href="impressum.html">Impressum</a></p>
+            </section>
+        </footer>
+    </body>
+</html>

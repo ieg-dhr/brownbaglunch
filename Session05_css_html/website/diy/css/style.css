@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div, span,
+h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, del, dfn, em,
+img, ins, strong, b, i, u, q, sub, sup, ol, ul, dl, li, dt,
+fieldset, form, label, input, legend, table, caption,
+tr, th, td, tbody, tfoot, thead, section, article, aside,
+main, header, footer, figure, figcaption, nav, time {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+}

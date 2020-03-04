@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;   /*Fontstack: selects next font*/
+  background: #eee;
+}
+
+li {
+  display: inline;
+  border: 3px solid green;
+}
+
+.navigation a {                                          /*3 Möglichkeiten*/
+  border: 3px solid red;
+}
+
+
+.contact img {
+  width: 150px;
+  float: left;
+  padding: 20px;
+  border-right: 3px solid #444;
+  margin: 20px;
+}
+
+
+footer h4 {                                     /*"clear" = clears float settings (left/right/both)*/
+  clear: both;
+}

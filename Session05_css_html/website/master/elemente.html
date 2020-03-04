@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Lösungsbeispiel für HTML Aufgabe 1"/>
+        <meta name="author" content="Torsten Schrade"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Aufgabe 1 - HTML-Elemente</title>
+        <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"/>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Eins</a>
+                    </li>
+                    <li>
+                        <a href="#">Zwei</a>
+                    </li>
+                    <li>
+                        <a href="#">Drei</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Überschrift 1</h1>
+                <h2>Überschrift 2</h2>
+                <h3>Überschrift 3</h3>
+                <h4>Überschrift 4</h4>
+                <h5>Überschrift 5</h5>
+                <h6>Überschrift 6</h6>
+                <article>
+                    <h3>Zwei Worte</h3>
+                    <p>
+                        Zum <em>vierten Male</em> treten wir mit einer neuen Zeitschrift in die Oeffentlichkeit. Dreimal
+                        versuchte man, mit gröbsten Vertragsbrüchen unsere Tätigkeit zu verhindern, die von den Vielzuvielen
+                        peinlich empfunden wird. Wir haben uns entschlossen, unsere eigenen Verleger zu sein. Denn wir sind
+                        noch immer so glücklich, glauben zu können, daß an die Stelle des <b>Journalismus</b> und des
+                        <b>Feuilletonismus</b> wieder Kultur und die Künste treten können.
+                        (<a href="http://bluemountain.princeton.edu/bluemtn/cgi-bin/imageserver.pl?oid=bmtnabg19100303-01&amp;getpdf=true">
+                            Quelle
+                        </a>)
+                    </p>
+                    <hr/>
+                    <p>
+                        <strong>
+                        Die Schriftleitung der<br/>
+                        Wochenschrift DER STURM Berlin im <time datetime="1910-02-01">Februar 1910</time>
+                        </strong>
+                    </p>
+                </article>
+                <div>
+                    <p>
+                        <q cite="http://content.staatsbibliothek-berlin.de/dms/PPN746594453/800/0/00000004.jpg">
+                            Jetzt aber <i>adieu</i>, ein andersmal weiter. Herzlichste Grüssen für Sie beiden
+                            Ihre <u>JacobavanHeemskerck</u>
+                        </q>
+                    </p>
+                </div>
+                <div>
+                    <span class="line" id="l14">
+                        <a href="https://lod.academy/bmb/id/bmb-bm-02fn/1#l14" class="permalink" title="Permalink Zeile 14">14</a>
+                        <span class="annotation arabicDigits">2</span>
+                        <sup class="annotation">a</sup> Su(m)ma 6<ins class="annotation laterAddendum">52 gld mi(n)(us) 1 ort</ins>
+                        <strike>31,5 gld</strike>
+                        <span class="annotation comment" data-commentary="Gestrichen davor '31,5 gld', vermutlich wurde die Ausstreichung der Währung vergessen.">
+                            gld Riniſcher
+                        </span>
+                    </span>
+                </div>
+                <div>
+                    <p>
+                        <dfn>H<sub>2</sub>O</dfn> ist die chemische Summenformel von Wasser.
+                    </p>
+                </div>
+                <ul>
+                    <li>Äpfel</li>
+                    <li>Birnen</li>
+                    <li>Tomaten</li>
+                </ul>
+                <ol>
+                    <li>Einleitung</li>
+                    <li>Hauptteil</li>
+                    <li>Zusammenfassung und Fazit</li>
+                </ol>
+                <dl>
+                    <dt>Digital Humanities</dt>
+                    <dd>
+                        Das Fach Digital Humanities umfasst die Anwendung von computergestützten Verfahren und die
+                        systematische Verwendung von digitalen Ressourcen in den Geistes- und Kulturwissenschaften sowie
+                        die Reflexion über deren Anwendung.
+                    </dd>
+                </dl>
+                <div>
+                    <pre>
+                        <code>
+.ninja {
+    color: black;
+    visibility: hidden;
+    animation-duration: 0.00001s;
+}
+
+.monarch {
+    position: inherit;
+}
+                        </code>
+                    </pre>
+                </div>
+                <div>
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Macke_-_Der_Sturm.jpg" width="50%" alt="Digitalisat von August Mackes 'Der Sturm'" />
+                        <figcaption>August Macke: Der Sturm (1911)</figcaption>
+                    </figure>
+                </div>
+                <table>
+                    <caption>Transkriptionsübersicht</caption>
+                    <thead>
+                        <tr>
+                            <th>Brief</th>
+                            <th>Transkribiert</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td>Summe</td>
+                            <td>2</td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td> 1914-12-19_JvH_HW.xml</td>
+                            <td>ja</td>
+                        </tr>
+                        <tr>
+                            <td>1914-12-19_JvH_HW.xml</td>
+                            <td>Ja</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form -->
+                <form>
+                    <h1>STURM Abonnement</h1>
+                    <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+                    <section>
+                        <h2>Contact information</h2>
+                        <fieldset>
+                            <legend>Title</legend>
+                            <ul>
+                                <li>
+                                    <label for="title_1">
+                                        <input type="radio" id="title_1" name="title" value="M." />
+                                        Mister
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="title_2">
+                                        <input type="radio" id="title_2" name="title" value="Ms.">
+                                        Miss
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <p>
+                            <label for="name">
+                                <span>Name: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="text" id="name" name="username">
+                        </p>
+                        <p>
+                            <label for="mail">
+                                <span>E-mail: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="email" id="mail" name="usermail">
+                        </p>
+                        <p>
+                            <label for="password">
+                                <span>Password: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="password" id="pwd" name="password">
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Payment information</h2>
+                        <p>
+                            <label for="card">
+                                <span>Card type:</span>
+                            </label>
+                            <select id="card" name="usercard">
+                                <option value="visa">Visa</option>
+                                <option value="mc">Mastercard</option>
+                                <option value="amex">American Express</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="number">
+                                <span>Card number:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="text" id="number" name="cardnumber">
+                        </p>
+                        <p>
+                            <label for="date">
+                                <span>Expiration date:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                                <em>formatted as mm/yy</em>
+                            </label>
+                            <input type="text" id="date" name="expiration">
+                        </p>
+                    </section>
+                    <section>
+                        <label for="coment">
+                            <span>Comment:</span>
+                        </label>
+                        <textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+                    </section>
+                    <section>
+                        <p><button type="submit">Validate the payment</button></p>
+                    </section>
+                </form>
+                <div>
+                    <audio src="https://archive.org/download/Orson_Welles_Shakespeare_Collection/440621_Soliloquy_from_Richard_III.ogg" controls="yes">
+                        Orson Welles as Richard III; https://archive.org/details/Orson_Welles_Shakespeare_Collection/440621_Soliloquy_from_Richard_III.mp3
+                    </audio>
+                </div>
+                <div>
+                    <video src="https://archive.org/download/KraftwerkTheRobots2/Kraftwerk%20-%20The%20Robots_2.ogv" controls="yes">
+                        KRAFTWERT - We are the robots; https://archive.org/details/KraftwerkTheRobots2
+                    </video>
+                </div>
+            </section>
+            <aside>
+                <h3>Quote of the day</h3>
+                <blockquote cite="http://dig.csail.mit.edu/breadcrumbs/node/144">
+                    <p>
+                        When I invented the web, I didn't have to ask anyone's permission. Now, hundreds of millions of people
+                        are using it freely. I am worried that that is going end in the <abbr title="United States of America">USA</abbr>.
+                        … Democracy depends on freedom of speech. Freedom of connection, with any application, to any party,
+                        is the fundamental social basis of the Internet, and, now, the society based on it. Let's see whether
+                        the United States is capable as acting according to its important values, or whether it is, as so many
+                        people are saying, run by the misguided short-term interested of large corporations. I hope that
+                        Congress can protect net neutrality, so I can continue to innovate in the internet space. I want
+                        to see the explosion of innovations happening out there on the Web, so diverse and so exciting,
+                        continue unabated.
+                    </p>
+                    <cite>
+                        <a href="http://dig.csail.mit.edu/breadcrumbs/node/144">Tim Berners-Lee</a>
+                    </cite>
+                </blockquote>
+            </aside>
+        </main>
+        <footer>
+            <address>
+                Redaktion und Verlag:<br/>
+                Herwarth Walden<br/>
+                Berlin-Halensee,<br/>
+                Katharinenstrasse 5,<br/>
+                Fernsprecher Amt Wilmersdorf 3524
+            </address>
+        </footer>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    </body>
+</html>
