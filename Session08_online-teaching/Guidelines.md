@@ -11,6 +11,8 @@
 
 * [Videokonferenzen und Webinare mit BigBlueButton, Universität Osnabrück](https://www.virtuos.uni-osnabrueck.de/digitale_lehre/covid_19.html#c15452)
 
+* [Blended Learning - Handreichung Online Lehre mit Fokus auf Moodle, Powerpoint und Zoom (Technische Hochschule Nürnberg)](https://www.th-nuernberg.de/fileadmin/abteilungen/sll/Dokumente/Blended_Learning/Handreichung_Online-Lehre_V.2020-07-09.01.pdf)
+
 * [Dossier: Gute Lehre, Hochschulforum Digitalisierung](https://hochschulforumdigitalisierung.de/de/dossiers/gute-lehre):
 
 > Gute Lehre ist das Kerngeschäft von Hochschulen. Digitale Werkzeuge können bei der Entwicklung und Etablierung studierendenzentrierter Methoden hilfreich sein.
@@ -24,8 +26,6 @@
 * [Handreichung für eine diversitätssensible digitale Lehre, Universität Frankfurt](https://www.uni-frankfurt.de/87954647/2020_04_29_DiversitDigitaleLehreHandreichung.pdf)
 
 * [Praxistipps & Handreichungen zum Download, Freie Universität Berlin](https://www.cedis.fu-berlin.de/online-lehren-lernen/praxistipps/index.html)
-
-* [Blended Learning, Technische Hochschule Nürnberg](https://www.th-nuernberg.de/einrichtungen-gesamt/abteilungen/service-lehren-und-lernen/lehren/blended-learning/)
 
 * [Praxisleitfaden „Barrierefreie digitale Lehre“, LMU München](https://www.uni-muenchen.de/studium/beratung/beratung_service/beratung_lmu/beratungsstelle-barrierefrei/leitfaden-digitale-lehre.pdf):
 
