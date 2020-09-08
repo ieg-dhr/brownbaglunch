@@ -1,5 +1,7 @@
 # Links zu Handreichungen und Anforderungsbeschreibungen aus verschiedenen geisteswissenschaftlichen Fächern
 
+* [Clio-Guide. Handbuch zu digitalen Ressourcen für die Geschichtswissenschaft in zweiter erweiterter und überarbeiteter Auflage erschienen](https://digigw.hypotheses.org/category/digitale-lehre)
+
 * [Konsenspapier "Digitale Lehre in der Germanistik"](https://vfr.mww-forschung.de/web/digitale-lehre-germanistik/konsenspapier)
 
 * [Digitale Lehre in der Kunstgeschichte. Eine Handreichung](https://blog.arthistoricum.net/beitrag/2020/03/30/digitale-lehre-in-der-kunstgeschichte-eine-handreichung/)
